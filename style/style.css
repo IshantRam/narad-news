@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+
+*,
+*::before *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Baloo Bhai 2", cursive;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #f7f7f7;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: lightgray;
+  border-radius: 8px;
+}
